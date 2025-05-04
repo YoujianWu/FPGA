@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="wyj_test_3_4_ls163_0_0_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_ls163_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="wyj_test_3_4_ls163_0_1_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_ls163_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="wyj_test_3_4_ls163_0_0_synth_1"/>
+	</Run>
+	<Run Id="wyj_test_3_4_util_vector_logic_0_0_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="wyj_test_3_4_util_vector_logic_0_1_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="wyj_test_3_4_util_vector_logic_0_2_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="wyj_test_3_4_util_vector_logic_0_1_synth_1"/>
+	</Run>
+	<Run Id="wyj_test_3_4_util_vector_logic_0_3_synth_1" LaunchDir="C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="wyj_test_3_4_util_vector_logic_0_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

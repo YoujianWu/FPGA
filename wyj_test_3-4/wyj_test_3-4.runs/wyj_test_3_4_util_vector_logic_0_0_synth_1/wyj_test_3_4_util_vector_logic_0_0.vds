@@ -1,0 +1,205 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Apr 27 11:54:28 2025
+# Process ID         : 7756
+# Current directory  : C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1
+# Command line       : vivado.exe -log wyj_test_3_4_util_vector_logic_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wyj_test_3_4_util_vector_logic_0_0.tcl
+# Log file           : C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1/wyj_test_3_4_util_vector_logic_0_0.vds
+# Journal file       : C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1\vivado.jou
+# Running On         : DESKTOP-LEIGION
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16962 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20451 MB
+# Available Virtual  : 7715 MB
+#-----------------------------------------------------------
+source wyj_test_3_4_util_vector_logic_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 619.715 ; gain = 189.625
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11248/Desktop/FPGA/wyj_test_3-4/UIP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/design/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_0
+Command: synth_design -top wyj_test_3_4_util_vector_logic_0_0 -part xc7a35tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7908
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1105.160 ; gain = 469.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'wyj_test_3_4_util_vector_logic_0_0' [c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_0/synth/wyj_test_3_4_util_vector_logic_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'util_vector_logic_v2_0_4_util_vector_logic' [c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/ipshared/fd7b/hdl/util_vector_logic_v2_0_vl_rfs.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'util_vector_logic_v2_0_4_util_vector_logic' (0#1) [c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/ipshared/fd7b/hdl/util_vector_logic_v2_0_vl_rfs.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'wyj_test_3_4_util_vector_logic_0_0' (0#1) [c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_0/synth/wyj_test_3_4_util_vector_logic_0_0.v:53]
+WARNING: [Synth 8-7129] Port Op2[7] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[6] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[5] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[4] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[3] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[2] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[1] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Op2[0] in module util_vector_logic_v2_0_4_util_vector_logic is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1210.234 ; gain = 574.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1210.234 ; gain = 574.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1210.234 ; gain = 574.465
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1210.234 ; gain = 574.465
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1367.703 ; gain = 731.934
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1382.480 ; gain = 746.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1382.480 ; gain = 746.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------------------------------------------+------+
+|      |Instance |Module                                     |Cells |
++------+---------+-------------------------------------------+------+
+|1     |top      |                                           |     8|
+|2     |  inst   |util_vector_logic_v2_0_4_util_vector_logic |     8|
++------+---------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.230 ; gain = 948.461
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1601.277 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1707.207 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ae01ffe0
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1707.207 ; gain = 1071.469
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1/wyj_test_3_4_util_vector_logic_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1977.242 ; gain = 270.035
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP wyj_test_3_4_util_vector_logic_0_0, cache-ID = fca18c43a0841b8a
+INFO: [Common 17-1381] The checkpoint 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1/wyj_test_3_4_util_vector_logic_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file wyj_test_3_4_util_vector_logic_0_0_utilization_synth.rpt -pb wyj_test_3_4_util_vector_logic_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 27 11:55:02 2025...

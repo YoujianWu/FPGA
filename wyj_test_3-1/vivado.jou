@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Apr 27 09:22:36 2025
+# Process ID         : 9068
+# Current directory  : C:/Users/11248/Desktop/FPGA/wyj_test_3-1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent5408 C:\Users\11248\Desktop\FPGA\wyj_test_3-1\wyj_test_3-1.xpr
+# Log file           : C:/Users/11248/Desktop/FPGA/wyj_test_3-1/vivado.log
+# Journal file       : C:/Users/11248/Desktop/FPGA/wyj_test_3-1\vivado.jou
+# Running On         : DESKTOP-LEIGION
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16962 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20451 MB
+# Available Virtual  : 9152 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/11248/Desktop/FPGA/wyj_test_3-1/wyj_test_3-1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source wyj_test_3_1_wrapper.tcl
+add_force {/wyj_test_3_1_wrapper/CLK} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/wyj_test_3_1_wrapper/GND} -radix hex {0 0ns}
+run all
+open_bd_design {C:/Users/11248/Desktop/FPGA/wyj_test_3-1/wyj_test_3-1.srcs/sources_1/bd/wyj_test_3_1/wyj_test_3_1.bd}
+close_sim

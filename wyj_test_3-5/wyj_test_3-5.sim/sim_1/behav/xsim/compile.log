@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-5/wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_5_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-5/wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_5_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-5/wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/sim/wyj_test_3_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-5/wyj_test_3-5.gen/sources_1/bd/wyj_test_3_5/hdl/wyj_test_3_5_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_5_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-5/wyj_test_3-5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

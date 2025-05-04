@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot wyj_test_3_3 xil_defaultlib.wyj_test_3_3 xil_defaultlib.glbl -log elaborate.log

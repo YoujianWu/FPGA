@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 27 09:53:15 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="wyj_test_3_3" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="cp1_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="r0_1"/>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="r0_2"/>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="r9_1"/>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="r9_2"/>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="r9_1"/>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="r9_2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="wyj74ls90_0_qa">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="qa"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="wyj74ls90_0_qb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="qb"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="wyj74ls90_0_qc">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="qc"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="wyj74ls90_0_qd">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_0" PORT="qd"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q4" SIGIS="undef" SIGNAME="wyj74ls90_1_qa">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="qa"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q5" SIGIS="undef" SIGNAME="wyj74ls90_1_qb">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="qb"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q6" SIGIS="undef" SIGNAME="wyj74ls90_1_qc">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="qc"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q7" SIGIS="undef" SIGNAME="wyj74ls90_1_qd">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="wyj74ls90_1" PORT="qd"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/wyj74ls90_0" HWVERSION="1.0" INSTANCE="wyj74ls90_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wyj74ls90" VLNV="xilinx.com:uip:wyj74ls90:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="10"/>
+        <PARAMETER NAME="Component_Name" VALUE="wyj_test_3_3_wyj74ls90_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cp1_n" SIGIS="undef" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cp2_n" SIGIS="undef" SIGNAME="wyj74ls90_0_qa">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="wyj74ls90_0" PORT="qa"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qa" SIGIS="undef" SIGNAME="wyj74ls90_0_qa">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q0"/>
+            <CONNECTION INSTANCE="wyj74ls90_0" PORT="cp2_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qb" SIGIS="undef" SIGNAME="wyj74ls90_0_qb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qc" SIGIS="undef" SIGNAME="wyj74ls90_0_qc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qd" SIGIS="undef" SIGNAME="wyj74ls90_0_qd">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q3"/>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="cp1_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r0_1" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r0_2" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r9_1" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r9_2" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/wyj74ls90_1" HWVERSION="1.0" INSTANCE="wyj74ls90_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wyj74ls90" VLNV="xilinx.com:uip:wyj74ls90:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="10"/>
+        <PARAMETER NAME="Component_Name" VALUE="wyj_test_3_3_wyj74ls90_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cp1_n" SIGIS="undef" SIGNAME="wyj74ls90_0_qd">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="wyj74ls90_0" PORT="qd"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cp2_n" SIGIS="undef" SIGNAME="wyj74ls90_1_qa">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="qa"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qa" SIGIS="undef" SIGNAME="wyj74ls90_1_qa">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q4"/>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="cp2_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qb" SIGIS="undef" SIGNAME="wyj74ls90_1_qb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q5"/>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="r0_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qc" SIGIS="undef" SIGNAME="wyj74ls90_1_qc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q6"/>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="r0_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="qd" SIGIS="undef" SIGNAME="wyj74ls90_1_qd">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r0_1" SIGIS="undef" SIGNAME="wyj74ls90_1_qb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="qb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r0_2" SIGIS="undef" SIGNAME="wyj74ls90_1_qc">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="wyj74ls90_1" PORT="qc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r9_1" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="r9_2" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

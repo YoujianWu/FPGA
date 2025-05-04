@@ -1,0 +1,9 @@
+verilog xil_defaultlib  \
+"../../../bd/wyj_test_3_1/ipshared/2ad4/ip_74ls90.v" \
+"../../../bd/wyj_test_3_1/ip/wyj_test_3_1_wyj74ls90_0_0/sim/wyj_test_3_1_wyj74ls90_0_0.v" \
+"../../../bd/wyj_test_3_1/sim/wyj_test_3_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

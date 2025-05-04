@@ -1,0 +1,56 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "wyj_test_3_2_wyj74ls90_0_0",
+    "cell_name": "wyj74ls90_0",
+    "component_reference": "xilinx.com:uip:wyj74ls90:1.0",
+    "ip_revision": "2",
+    "gen_directory": "../../../../../../wyj_test_3-2.gen/sources_1/bd/wyj_test_3_2/ip/wyj_test_3_2_wyj74ls90_0_0",
+    "parameters": {
+      "component_parameters": {
+        "DELAY": [ { "value": "10", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "wyj_test_3_2_wyj74ls90_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "DELAY": [ { "value": "10", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a35t" } ],
+        "PACKAGE": [ { "value": "csg324" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../wyj_test_3-2.gen/sources_1/bd/wyj_test_3_2/ip/wyj_test_3_2_wyj74ls90_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "cp1_n": [ { "direction": "in" } ],
+        "cp2_n": [ { "direction": "in" } ],
+        "r0_1": [ { "direction": "in" } ],
+        "r0_2": [ { "direction": "in" } ],
+        "r9_1": [ { "direction": "in" } ],
+        "r9_2": [ { "direction": "in" } ],
+        "qa": [ { "direction": "out" } ],
+        "qb": [ { "direction": "out" } ],
+        "qc": [ { "direction": "out" } ],
+        "qd": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

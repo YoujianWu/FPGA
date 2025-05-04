@@ -1,0 +1,107 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7CFBE0107CFBE010",
+      "device": "xc7a35tcsg324-1",
+      "gen_directory": "../../../../wyj_test_3-2.gen/sources_1/bd/wyj_test_3_2",
+      "name": "wyj_test_3_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "wyj74ls90_0": "",
+      "wyj74ls90_1": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "GND": {
+        "direction": "I"
+      },
+      "Q0": {
+        "direction": "O"
+      },
+      "Q1": {
+        "direction": "O"
+      },
+      "Q2": {
+        "direction": "O"
+      },
+      "Q3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "wyj74ls90_0": {
+        "vlnv": "xilinx.com:uip:wyj74ls90:1.0",
+        "ip_revision": "2",
+        "xci_name": "wyj_test_3_2_wyj74ls90_0_0",
+        "xci_path": "ip\\wyj_test_3_2_wyj74ls90_0_0\\wyj_test_3_2_wyj74ls90_0_0.xci",
+        "inst_hier_path": "wyj74ls90_0"
+      },
+      "wyj74ls90_1": {
+        "vlnv": "xilinx.com:uip:wyj74ls90:1.0",
+        "ip_revision": "2",
+        "xci_name": "wyj_test_3_2_wyj74ls90_1_0",
+        "xci_path": "ip\\wyj_test_3_2_wyj74ls90_1_0\\wyj_test_3_2_wyj74ls90_1_0.xci",
+        "inst_hier_path": "wyj74ls90_1"
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "wyj74ls90_0/cp2_n"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "wyj74ls90_0/r9_1",
+          "wyj74ls90_0/r9_2",
+          "wyj74ls90_0/cp1_n",
+          "wyj74ls90_1/cp1_n",
+          "wyj74ls90_1/r9_1",
+          "wyj74ls90_1/r9_2"
+        ]
+      },
+      "wyj74ls90_0_qb": {
+        "ports": [
+          "wyj74ls90_0/qb",
+          "Q0"
+        ]
+      },
+      "wyj74ls90_0_qc": {
+        "ports": [
+          "wyj74ls90_0/qc",
+          "Q1",
+          "wyj74ls90_1/cp2_n"
+        ]
+      },
+      "wyj74ls90_0_qd": {
+        "ports": [
+          "wyj74ls90_0/qd",
+          "wyj74ls90_0/r0_1",
+          "wyj74ls90_0/r0_2"
+        ]
+      },
+      "wyj74ls90_1_qb": {
+        "ports": [
+          "wyj74ls90_1/qb",
+          "Q2",
+          "wyj74ls90_1/r0_1"
+        ]
+      },
+      "wyj74ls90_1_qc": {
+        "ports": [
+          "wyj74ls90_1/qc",
+          "Q3",
+          "wyj74ls90_1/r0_2"
+        ]
+      }
+    }
+  }
+}

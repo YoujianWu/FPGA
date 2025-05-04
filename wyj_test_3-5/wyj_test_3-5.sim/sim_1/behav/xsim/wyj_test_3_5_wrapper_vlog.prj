@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../wyj_test_3-5.gen/sources_1/bd/wyj_test_3_5/ipshared/3cbc" \
+"../../../../wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0_clk_wiz.v" \
+"../../../../wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0.v" \
+"../../../../wyj_test_3-5.ip_user_files/bd/wyj_test_3_5/sim/wyj_test_3_5.v" \
+"../../../../wyj_test_3-5.gen/sources_1/bd/wyj_test_3_5/hdl/wyj_test_3_5_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

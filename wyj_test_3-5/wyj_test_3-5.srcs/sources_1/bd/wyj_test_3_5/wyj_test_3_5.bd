@@ -1,0 +1,82 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF2526CE3AE6F0825",
+      "device": "xc7a35tcsg324-1",
+      "gen_directory": "../../../../wyj_test_3-5.gen/sources_1/bd/wyj_test_3_5",
+      "name": "wyj_test_3_5",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "CLK_IN": {
+        "direction": "I"
+      },
+      "CLK_OUT": {
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_0_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "6250000",
+            "value_src": "ip_prop"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "15",
+        "xci_name": "wyj_test_3_5_clk_wiz_0_0",
+        "xci_path": "ip\\wyj_test_3_5_clk_wiz_0_0\\wyj_test_3_5_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "326.140"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "137.956"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "6.25"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.125"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "121.000"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "2"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_IN_1": {
+        "ports": [
+          "CLK_IN",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "CLK_OUT"
+        ]
+      }
+    }
+  }
+}

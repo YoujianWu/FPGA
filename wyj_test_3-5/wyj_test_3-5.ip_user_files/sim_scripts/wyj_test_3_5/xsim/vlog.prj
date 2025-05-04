@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../wyj_test_3-5.gen/sources_1/bd/wyj_test_3_5/ipshared/3cbc" \
+"../../../bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/wyj_test_3_5/ip/wyj_test_3_5_clk_wiz_0_0/wyj_test_3_5_clk_wiz_0_0.v" \
+"../../../bd/wyj_test_3_5/sim/wyj_test_3_5.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

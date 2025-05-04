@@ -1,0 +1,7 @@
+Running: xsim.dir/wyj_test_3_4_wrapper_behav/xsimk.exe -simmode gui -wdb wyj_test_3_4_wrapper_behav.wdb -simrunnum 0 -socket 56716
+Design successfully loaded
+Design Loading Memory Usage: 28192 KB (Peak: 28192 KB)
+Design Loading CPU Usage: 406 ms
+Simulation completed
+Simulation Memory Usage: 36860 KB (Peak: 36860 KB)
+Simulation CPU Usage: 25077 ms

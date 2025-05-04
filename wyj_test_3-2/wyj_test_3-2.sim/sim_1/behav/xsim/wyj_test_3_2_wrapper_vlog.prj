@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../wyj_test_3-2.ip_user_files/bd/wyj_test_3_2/ipshared/2ad4/ip_74ls90.v" \
+"../../../../wyj_test_3-2.ip_user_files/bd/wyj_test_3_2/ip/wyj_test_3_2_wyj74ls90_0_0/sim/wyj_test_3_2_wyj74ls90_0_0.v" \
+"../../../../wyj_test_3-2.ip_user_files/bd/wyj_test_3_2/ip/wyj_test_3_2_wyj74ls90_1_0/sim/wyj_test_3_2_wyj74ls90_1_0.v" \
+"../../../../wyj_test_3-2.ip_user_files/bd/wyj_test_3_2/sim/wyj_test_3_2.v" \
+"../../../../wyj_test_3-2.gen/sources_1/bd/wyj_test_3_2/hdl/wyj_test_3_2_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

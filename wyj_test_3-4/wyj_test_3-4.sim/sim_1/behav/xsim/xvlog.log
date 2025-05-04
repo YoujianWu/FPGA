@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_0/sim/wyj_test_3_4_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_1/sim/wyj_test_3_4_util_vector_logic_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_2/sim/wyj_test_3_4_util_vector_logic_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_3/sim/wyj_test_3_4_util_vector_logic_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ipshared/77b9/ip_74ls163.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ls163
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'rco' is not allowed [C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ipshared/77b9/ip_74ls163.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_ls163_0_0/sim/wyj_test_3_4_ls163_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_ls163_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_ls163_0_1/sim/wyj_test_3_4_ls163_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_ls163_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/sim/wyj_test_3_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/hdl/wyj_test_3_4_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

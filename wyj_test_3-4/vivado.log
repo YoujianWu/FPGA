@@ -1,0 +1,290 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Apr 27 11:40:27 2025
+# Process ID         : 11356
+# Current directory  : C:/Users/11248/Desktop/FPGA/wyj_test_3-4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent16968 C:\Users\11248\Desktop\FPGA\wyj_test_3-4\wyj_test_3-4.xpr
+# Log file           : C:/Users/11248/Desktop/FPGA/wyj_test_3-4/vivado.log
+# Journal file       : C:/Users/11248/Desktop/FPGA/wyj_test_3-4\vivado.jou
+# Running On         : DESKTOP-LEIGION
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16962 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 20451 MB
+# Available Virtual  : 9825 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/design/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/design/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/design/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11248/Desktop/FPGA/wyj_test_3-4/UIP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/design/Vivado/2024.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'wyj_test_3_4.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+wyj_test_3_4_ip_74ls163_0_0
+wyj_test_3_4_ip_74ls163_1_0
+
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1592.848 ; gain = 309.832
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/11248/Desktop/FPGA/wyj_test_3-4/UIP [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11248/Desktop/FPGA/wyj_test_3-4/UIP'.
+open_bd_design {C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd}
+Reading block design file <C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd>...
+Adding component instance block -- xilinx.com:uip:ip_74ls163:1.0 - ip_74ls163_0
+Adding component instance block -- xilinx.com:uip:ip_74ls163:1.0 - ip_74ls163_1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_3
+Successfully read diagram <wyj_test_3_4> from block design file <C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd>
+delete_bd_objs [get_bd_nets Net] [get_bd_cells ip_74ls163_0]
+delete_bd_objs [get_bd_nets CLK_1] [get_bd_nets GND_1] [get_bd_nets util_vector_logic_0_Res] [get_bd_nets ip_74ls163_1_q] [get_bd_nets PT_1] [get_bd_cells ip_74ls163_1]
+save_bd_design
+Wrote  : <C:\Users\11248\Desktop\FPGA\wyj_test_3-4\wyj_test_3-4.srcs\sources_1\bd\wyj_test_3_4\wyj_test_3_4.bd> 
+Wrote  : <C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/ui/bd_7744b052.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:uip:ls163:1.0 ls163_0
+endgroup
+copy_bd_objs /  [get_bd_cells {ls163_0}]
+set_property location {2 127 -544} [get_bd_cells ls163_0]
+set_property location {1 175 -491} [get_bd_cells ls163_0]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins ls163_0/clk]
+set_property location {-86 -571} [get_bd_ports CLK]
+set_property location {-77 -524} [get_bd_ports PT]
+set_property location {-77 -520} [get_bd_ports PT]
+connect_bd_net [get_bd_ports PT] [get_bd_pins ls163_0/ld_l]
+set_property location {-82 -509} [get_bd_ports PT]
+connect_bd_net [get_bd_ports PT] [get_bd_pins ls163_0/enp]
+connect_bd_net [get_bd_ports PT] [get_bd_pins ls163_0/ent]
+connect_bd_net [get_bd_ports GND] [get_bd_pins ls163_0/d0]
+connect_bd_net [get_bd_ports GND] [get_bd_pins ls163_0/d1]
+connect_bd_net [get_bd_ports GND] [get_bd_pins ls163_0/d2]
+connect_bd_net [get_bd_ports GND] [get_bd_pins ls163_0/d3]
+set_property location {2.5 575 -268} [get_bd_cells ls163_1]
+connect_bd_net [get_bd_pins ls163_1/clr_l] [get_bd_pins ls163_0/clr_l]
+connect_bd_net [get_bd_pins ls163_1/clr_l] [get_bd_pins util_vector_logic_0/Res]
+create_bd_port -dir O Q0
+delete_bd_objs [get_bd_ports Q3_0]
+set_property location {699 -580} [get_bd_ports Q0]
+undo
+INFO: [Common 17-17] undo 'set_property location {699 -580} [get_bd_ports Q0]'
+set_property location {1598 -616} [get_bd_ports Q0]
+copy_bd_objs /  [get_bd_ports {Q0}]
+copy_bd_objs /  [get_bd_ports {Q0}]
+copy_bd_objs /  [get_bd_ports {Q0}]
+copy_bd_objs /  [get_bd_ports {Q0}]
+set_property location {1596 -602} [get_bd_ports Q1]
+set_property location {1602 -572} [get_bd_ports Q2]
+set_property location {1588 -549} [get_bd_ports Q3]
+startgroup
+connect_bd_net [get_bd_ports Q0] [get_bd_pins ls163_1/q0]
+connect_bd_net [get_bd_ports Q4] [get_bd_pins ls163_1/q0]
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports Q4] [get_bd_pins ls163_1/q0]'
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports Q0] [get_bd_pins ls163_1/q0]'
+INFO: [Common 17-17] undo 'startgroup'
+connect_bd_net [get_bd_ports Q0] [get_bd_pins ls163_1/q0]
+connect_bd_net [get_bd_ports Q1] [get_bd_pins ls163_1/q1]
+connect_bd_net [get_bd_ports Q2] [get_bd_pins ls163_1/q2]
+connect_bd_net [get_bd_ports Q3] [get_bd_pins ls163_1/q3]
+set_property location {1636 130} [get_bd_ports Q4]
+set_property location {1581 -102} [get_bd_ports Q4]
+delete_bd_objs [get_bd_nets ls163_1_q0]
+delete_bd_objs [get_bd_nets ls163_1_q2]
+delete_bd_objs [get_bd_nets ls163_1_q1]
+delete_bd_objs [get_bd_nets ls163_1_q3]
+set_property location {1618 -334} [get_bd_ports Q4]
+connect_bd_net [get_bd_ports Q4] [get_bd_pins ls163_1/q0]
+set_property location {1617 -313} [get_bd_ports Q4]
+connect_bd_net [get_bd_ports Q0] [get_bd_pins ls163_0/q0]
+connect_bd_net [get_bd_ports Q1] [get_bd_pins ls163_0/q1]
+connect_bd_net [get_bd_ports Q2] [get_bd_pins ls163_0/q2]
+connect_bd_net [get_bd_ports Q3] [get_bd_pins ls163_0/q3]
+startgroup
+connect_bd_net [get_bd_ports CLK] [get_bd_pins ls163_1/clk]
+endgroup
+connect_bd_net [get_bd_ports PT] [get_bd_pins ls163_1/ld_l]
+startgroup
+connect_bd_net [get_bd_pins ls163_1/ent] [get_bd_pins ls163_1/enp]
+endgroup
+connect_bd_net [get_bd_pins ls163_0/rco] [get_bd_pins ls163_1/ent]
+connect_bd_net [get_bd_pins ls163_1/d0] [get_bd_pins ls163_1/d3]
+connect_bd_net [get_bd_pins ls163_1/d1] [get_bd_pins ls163_1/d0]
+connect_bd_net [get_bd_pins ls163_1/d2] [get_bd_pins ls163_1/d0]
+connect_bd_net [get_bd_ports GND] [get_bd_pins ls163_1/d2]
+connect_bd_net [get_bd_pins util_vector_logic_3/Op2] [get_bd_pins ls163_1/q0]
+connect_bd_net [get_bd_pins util_vector_logic_3/Op1] [get_bd_pins ls163_0/q2]
+connect_bd_net [get_bd_pins util_vector_logic_2/Op2] [get_bd_pins ls163_0/q1]
+set_property location {3.5 875 -311} [get_bd_cells util_vector_logic_1]
+undo
+INFO: [Common 17-17] undo 'set_property location {3.5 875 -311} [get_bd_cells util_vector_logic_1]'
+set_property location {3 815 234} [get_bd_cells util_vector_logic_1]
+connect_bd_net [get_bd_pins util_vector_logic_1/Op1] [get_bd_pins ls163_0/q0]
+regenerate_bd_layout
+generate_target all [get_files  C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd]
+Wrote  : <C:\Users\11248\Desktop\FPGA\wyj_test_3-4\wyj_test_3-4.srcs\sources_1\bd\wyj_test_3_4\wyj_test_3_4.bd> 
+Wrote  : <C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/ui/bd_7744b052.ui> 
+Verilog Output written to : c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/synth/wyj_test_3_4.v
+Verilog Output written to : c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/sim/wyj_test_3_4.v
+Verilog Output written to : c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/hdl/wyj_test_3_4_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ls163_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ls163_1 .
+Exporting to file c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/hw_handoff/wyj_test_3_4.hwh
+Generated Hardware Definition File c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/synth/wyj_test_3_4.hwdef
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_util_vector_logic_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_0
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_util_vector_logic_0_1] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_1
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_util_vector_logic_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_2
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_util_vector_logic_0_3] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_3
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_ls163_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_ls163_0_0
+catch { config_ip_cache -export [get_ips -all wyj_test_3_4_ls163_0_1] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_ls163_0_1
+export_ip_user_files -of_objects [get_files C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd]
+launch_runs wyj_test_3_4_ls163_0_0_synth_1 wyj_test_3_4_ls163_0_1_synth_1 wyj_test_3_4_util_vector_logic_0_0_synth_1 wyj_test_3_4_util_vector_logic_0_1_synth_1 wyj_test_3_4_util_vector_logic_0_2_synth_1 wyj_test_3_4_util_vector_logic_0_3_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_ls163_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_ls163_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: wyj_test_3_4_util_vector_logic_0_3
+[Sun Apr 27 11:54:23 2025] Launched wyj_test_3_4_ls163_0_0_synth_1, wyj_test_3_4_ls163_0_1_synth_1, wyj_test_3_4_util_vector_logic_0_0_synth_1, wyj_test_3_4_util_vector_logic_0_1_synth_1, wyj_test_3_4_util_vector_logic_0_2_synth_1, wyj_test_3_4_util_vector_logic_0_3_synth_1...
+Run output will be captured here:
+wyj_test_3_4_ls163_0_0_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_ls163_0_0_synth_1/runme.log
+wyj_test_3_4_ls163_0_1_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_ls163_0_1_synth_1/runme.log
+wyj_test_3_4_util_vector_logic_0_0_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_0_synth_1/runme.log
+wyj_test_3_4_util_vector_logic_0_1_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_1_synth_1/runme.log
+wyj_test_3_4_util_vector_logic_0_2_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_2_synth_1/runme.log
+wyj_test_3_4_util_vector_logic_0_3_synth_1: C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.runs/wyj_test_3_4_util_vector_logic_0_3_synth_1/runme.log
+export_simulation -lib_map_path [list {modelsim=C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.cache/compile_simlib/modelsim} {questa=C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.cache/compile_simlib/questa} {riviera=C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.cache/compile_simlib/riviera} {activehdl=C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.cache/compile_simlib/activehdl}] -of_objects [get_files C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd] -directory C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files -ipstatic_source_dir C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd] -top
+add_files -norecurse c:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/hdl/wyj_test_3_4_wrapper.v
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'wyj_test_3_4_wrapper'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/design/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/design/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'wyj_test_3_4_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj wyj_test_3_4_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_0/sim/wyj_test_3_4_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_1/sim/wyj_test_3_4_util_vector_logic_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_2/sim/wyj_test_3_4_util_vector_logic_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_util_vector_logic_0_3/sim/wyj_test_3_4_util_vector_logic_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_util_vector_logic_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ipshared/77b9/ip_74ls163.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ls163
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'rco' is not allowed [C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ipshared/77b9/ip_74ls163.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_ls163_0_0/sim/wyj_test_3_4_ls163_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_ls163_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/ip/wyj_test_3_4_ls163_0_1/sim/wyj_test_3_4_ls163_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_ls163_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.ip_user_files/bd/wyj_test_3_4/sim/wyj_test_3_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.gen/sources_1/bd/wyj_test_3_4/hdl/wyj_test_3_4_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wyj_test_3_4_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L util_vector_logic_v2_0_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot wyj_test_3_4_wrapper_behav xil_defaultlib.wyj_test_3_4_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/design/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L util_vector_logic_v2_0_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot wyj_test_3_4_wrapper_behav xil_defaultlib.wyj_test_3_4_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ls163
+Compiling module xil_defaultlib.wyj_test_3_4_ls163_0_0
+Compiling module xil_defaultlib.wyj_test_3_4_ls163_0_1
+Compiling module util_vector_logic_v2_0_4.util_vector_logic_v2_0_4_util_ve...
+Compiling module xil_defaultlib.wyj_test_3_4_util_vector_logic_0...
+Compiling module util_vector_logic_v2_0_4.util_vector_logic_v2_0_4_util_ve...
+Compiling module xil_defaultlib.wyj_test_3_4_util_vector_logic_0...
+Compiling module xil_defaultlib.wyj_test_3_4_util_vector_logic_0...
+Compiling module xil_defaultlib.wyj_test_3_4_util_vector_logic_0...
+Compiling module xil_defaultlib.wyj_test_3_4
+Compiling module xil_defaultlib.wyj_test_3_4_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot wyj_test_3_4_wrapper_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "wyj_test_3_4_wrapper_behav -key {Behavioral:sim_1:Functional:wyj_test_3_4_wrapper} -tclbatch {wyj_test_3_4_wrapper.tcl} -protoinst "protoinst_files/wyj_test_3_4.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/wyj_test_3_4.protoinst
+Time resolution is 1 ps
+source wyj_test_3_4_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'wyj_test_3_4_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1776.102 ; gain = 0.000
+add_force {/wyj_test_3_4_wrapper/PT} -radix hex {1 0ns}
+add_force {/wyj_test_3_4_wrapper/GND} -radix hex {0 0ns}
+add_force {/wyj_test_3_4_wrapper/CLK} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run all
+run: Time (s): cpu = 00:00:54 ; elapsed = 00:02:42 . Memory (MB): peak = 1827.969 ; gain = 51.867
+open_bd_design {C:/Users/11248/Desktop/FPGA/wyj_test_3-4/wyj_test_3-4.srcs/sources_1/bd/wyj_test_3_4/wyj_test_3_4.bd}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 36860 KB (Peak: 36860 KB), Simulation CPU Usage: 25077 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 27 12:01:05 2025...
